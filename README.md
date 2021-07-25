@@ -1,5 +1,8 @@
 # samba
 Samba - Docker-compose
 
-Ver en "localhost:445"
+Solo sirve dentro de nuestra red
+Usuario: user1
+Password: p4ssw0rd
+
 
