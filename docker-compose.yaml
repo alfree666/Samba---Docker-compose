@@ -5,7 +5,7 @@ services:
   samba:
     image: dperson/samba:latest
     restart: unless-stopped
-    command: '-u "root;p4ssw0rd" -s "datos;/datos;yes;no"'
+    command: '-u "user1;p4ssw0rd" -s "datos;/datos;yes;no"'
     stdin_open: true
     tty: true
     ports:
